@@ -1,6 +1,6 @@
 # IFPE, Onde estou?
 
-Integrantes: Pecris Andrade Venceslau da Silva, Ítalo, Davidson, Miguel Gabriel
+Integrantes: Pecris Andrade Venceslau da Silva, Ítalo, Davidson, Miguel Gabriel, Ênrell
 
 
 ## Contexto
