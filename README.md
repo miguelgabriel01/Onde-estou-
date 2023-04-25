@@ -71,3 +71,7 @@ Informações adicionais do campus, como localização de rampas, banheiro, mapa
 LINK Prototipo:
 
 https://www.figma.com/file/GoWxMW9rv2oflQWuIuss9d/Onde-estou%3F?t=jw7XbWXxE8kCAPI3-0
+
+LINK Documentação para desenvolvimento nos proximos 15 dias:
+
+https://docs.google.com/document/d/117g9WlMtiGDuItgmkIeQ-zMg4qIg0n9nLex8g2RvTFQ/edit
