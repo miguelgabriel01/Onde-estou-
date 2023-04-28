@@ -1,14 +1,18 @@
 <template>
-  <div class="entrar">
-    <h1>Entrar</h1>
-
-    <div class="formulario">
-      <form action="">
-        <input type="text" placeholder="Matricula">
-        <button>Entrar</button>
-    </form>
-    <a href="#">Acessar como visitante</a>
+  <div class="formUser">
+    <img src="../assets/iconeLocalizacao.png" alt="">
+    <div class="entrar">
+      <h1>Entrar</h1>
+  
+      <div class="formulario">
+        <form action="">
+          <input type="text" placeholder="Matricula">
+          <button>Entrar</button>
+      </form>
+      <a href="#">Acessar como visitante</a>
+      </div>
     </div>
+    <small> ------------------------ </small>
   </div>
 </template>
 
@@ -19,14 +23,28 @@ export default {
 </script>
 
 <style>
+.formUser{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
 
+img{
+  width: 70px;
+  height: 70px;
+  position: relative;
+  left: 151px;
+  top: 9px;
+}
 .entrar{
-  margin-top: 180px;
+  margin-top: 90px;
 }
 
 h1{
   color: #828282;
   margin-left: -210px;
+  padding: 10px;
 }
 
 .formulario{
@@ -74,6 +92,12 @@ a{
   text-decoration: none;
   color: #479EC3;
   font-size: 15px;
-  padding: 5px;
+  margin-top: 15px;
+}
+
+small{
+  font-size: 25px;
+  color: #479EC3;
+  margin-top: 270px;
 }
 </style>
