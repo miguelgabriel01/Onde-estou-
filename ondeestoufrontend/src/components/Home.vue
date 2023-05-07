@@ -8,10 +8,20 @@
   
   <script>
   export default {
-    name: 'HelloWorld',
+    name: 'Home',
     props: {
       msg: String
+    },
+    mounted() {
+    this.redirecionarAposTempo('/login', 6000) // Redireciona para '/rota-destino' após 3 segundos (3000ms)
+    },
+    methods: {
+    redirecionarAposTempo(rota, tempo) {
+      setTimeout(() => {
+        this.$router.push(rota)
+      }, tempo)
     }
+  }
   }
   </script>
   
@@ -40,9 +50,11 @@
 }
 
 small{
-    font-size: 25px;
-    color: #479EC3;
-    margin-top: 267px;
+  font-size: 25px;
+  color: #479EC3;
+  position: absolute;
+  bottom: 2%;
+  left: 25%;
 }
-  </style>
+</style>
   

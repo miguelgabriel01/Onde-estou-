@@ -1,17 +1,10 @@
 <template>
-  <LoginUser/>
+  <router-view/> 
 </template>
 
 <script>
-//import Home from './components/Home.vue'
-import LoginUser from './components/LoginUser.vue'
-
 export default {
-  name: 'App',
-  components: {
-    //Home,
-    LoginUser
-  }
+  name: 'App'
 }
 </script>
 

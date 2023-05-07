@@ -9,7 +9,7 @@
           <input type="text" placeholder="Matricula">
           <button>Entrar</button>
       </form>
-      <a href="#">Acessar como visitante</a>
+      <router-link to="/favoritos"><a href="#">Acessar como visitante</a></router-link>
       </div>
     </div>
     <small> ------------------------ </small>
@@ -18,11 +18,11 @@
 
 <script>
 export default {
-
+  name: "LoginUser"
 }
 </script>
 
-<style>
+<style scoped>
 .formUser{
   display: flex;
   justify-content: space-between;
@@ -33,12 +33,12 @@ export default {
 img{
   width: 70px;
   height: 70px;
-  position: relative;
-  left: 151px;
+  position: absolute;
+  right: 0;
   top: 9px;
 }
 .entrar{
-  margin-top: 90px;
+  margin-top: 200px;
 }
 
 h1{
@@ -98,6 +98,8 @@ a{
 small{
   font-size: 25px;
   color: #479EC3;
-  margin-top: 270px;
+  position: absolute;
+  bottom: 2%;
+  left: 25%;
 }
 </style>
