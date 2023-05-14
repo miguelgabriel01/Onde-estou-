@@ -4,6 +4,7 @@ import Home from "../components/Home"
 import Favoritos from "../components/Favoritos"
 import LoginUser from "../components/LoginUser"
 import Mapa from "../components/Mapa"
+import Buscar from "../components/Buscar"
 
 const routes = [
     {
@@ -25,6 +26,11 @@ const routes = [
         path: "/mapa",
         name: "Mapa",
         component: Mapa
+    },
+    {
+        path: "/buscar",
+        name: "Buscar",
+        component: Buscar
     }
 ]
 
