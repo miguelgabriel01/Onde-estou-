@@ -9,7 +9,7 @@
           <input type="text" placeholder="Matricula">
           <button>Entrar</button>
       </form>
-      <router-link to="/favoritos"><a href="#">Acessar como visitante</a></router-link>
+      <router-link to="/favorites"><a href="#">Acessar como visitante</a></router-link>
       </div>
     </div>
     <small> ------------------------ </small>
@@ -17,9 +17,15 @@
 </template>
 
 <script>
-export default {
-  name: "LoginUser"
-}
+import { defineComponent } from 'vue';
+
+export default defineComponent ({
+  name: 'LoginUser',
+
+  setup () {
+    // code ...
+  }
+});
 </script>
 
 <style scoped>

@@ -1,9 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from "../components/Home"
-import Favoritos from "../components/Favoritos"
+import Favorites from "../components/Favorites"
 import LoginUser from "../components/LoginUser"
-import Mapa from "../components/Mapa"
+import Map from "../components/Map"
 
 const routes = [
     {
@@ -17,14 +17,14 @@ const routes = [
         component: LoginUser
     },
     {
-        path: "/favoritos",
-        name: "Favoritos",
-        component: Favoritos
+        path: "/favorites",
+        name: "Favorites",
+        component: Favorites
     },
     {
-        path: "/mapa",
-        name: "Mapa",
-        component: Mapa
+        path: "/map",
+        name: "Map",
+        component: Map
     }
 ]
 
